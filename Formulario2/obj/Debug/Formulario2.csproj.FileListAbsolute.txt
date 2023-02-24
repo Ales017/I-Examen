@@ -1,0 +1,11 @@
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\bin\Debug\Formulario2.exe.config
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\bin\Debug\Formulario2.exe
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\bin\Debug\Formulario2.pdb
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\obj\Debug\Formulario2.csproj.AssemblyReference.cache
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\obj\Debug\Formulario2.csproj.SuggestedBindingRedirects.cache
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\obj\Debug\Formulario2.Form1.resources
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\obj\Debug\Formulario2.Properties.Resources.resources
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\obj\Debug\Formulario2.csproj.GenerateResource.cache
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\obj\Debug\Formulario2.csproj.CoreCompileInputs.cache
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\obj\Debug\Formulario2.exe
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\I-Examen\Formulario2\obj\Debug\Formulario2.pdb
