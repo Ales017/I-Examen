@@ -22,7 +22,8 @@ namespace Formulario2
         {
 
         }
-
+        double total = 0;
+        double promedio = 0;
         public void Agregarbutton_Click(object sender, EventArgs e)
         {
 
@@ -37,58 +38,21 @@ namespace Formulario2
                 return;
             }
 
-            //Convert.ToString(PreciotextBox.Text);
+            //total = total + Convert.ToDouble(PreciotextBox.Text);
+            //TotaltextBox.Text = Convert.ToString(total);
+
+            Convert.ToString(PreciotextBox.Text);
             MostrarlistBox.Items.Add(ProductotextBox.Text + " " + PreciotextBox.Text);
+
+            total = total + Convert.ToDouble(PreciotextBox.Text);
+            TotaltextBox.Text = Convert.ToString(total);
+            promedio = (total * 0.15);
+            PromediotextBox.Text = Convert.ToString(promedio);
 
             ProductotextBox.Text = "";
             ProductotextBox.Focus();
             PreciotextBox.Text = "";
             PreciotextBox.Focus();
-
-        }
-
-        double suma;
-
-        private async void Calcularbutton_Click(object sender, EventArgs e)
-        {
-            {
-                // Obtenemos los productos y precios del usuario
-                string[] productos = ProductotextBox.Text.Split(',');
-                decimal[] precios = Array.ConvertAll(PreciotextBox.Text.Split(','), decimal.Parse);
-
-                // Validamos que se hayan ingresado los mismos números de productos y precios
-                if (productos.Length != precios.Length)
-                {
-                    MessageBox.Show("Debe ingresar la misma cantidad de productos y precios.");
-                    return;
-                }
-
-                // Calculamos el total de la factura
-                decimal total = 0;
-                for (int i = 0; i < productos.Length; i++)
-                {
-                    total += precios[i];
-                }
-
-                // Calculamos el descuento asincrónicamente
-                decimal descuento = await CalcularDescuento(total);
-
-                // Mostramos los resultados al usuario
-                decimal totalConDescuento = total - descuento;
-                MessageBox.Show($"Descuento: ${descuento:0.00}");
-                MessageBox.Show($"Total con descuento: ${totalConDescuento:0.00}");
-            }
-
-            async Task<decimal> CalcularDescuento(decimal total)
-            {
-                // Simulamos un retraso de 2 segundos para simular un cálculo asincrónico
-                await Task.Delay(2000);
-
-                // Calculamos el descuento del 15% y lo devolvemos
-                decimal descuento = total * 0.15m;
-                return descuento;
-            }
-        }
-        
+        } 
     }
 }
