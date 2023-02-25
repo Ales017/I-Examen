@@ -1,0 +1,11 @@
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\bin\Debug\Formulario3.exe.config
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\bin\Debug\Formulario3.exe
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\bin\Debug\Formulario3.pdb
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\obj\Debug\Formulario3.csproj.AssemblyReference.cache
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\obj\Debug\Formulario3.csproj.SuggestedBindingRedirects.cache
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\obj\Debug\Formulario3.Form1.resources
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\obj\Debug\Formulario3.Properties.Resources.resources
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\obj\Debug\Formulario3.csproj.GenerateResource.cache
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\obj\Debug\Formulario3.csproj.CoreCompileInputs.cache
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\obj\Debug\Formulario3.exe
+C:\Users\dsd21\OneDrive\Documentos\UNAH 2023\lenguaje 3\IExamen\DarwinSanchez\Formulario3\obj\Debug\Formulario3.pdb
