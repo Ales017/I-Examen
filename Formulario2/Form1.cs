@@ -34,7 +34,12 @@ namespace Formulario2
             }
             if (PreciotextBox.Text == "")
             {
-                errorProvider1.SetError(PreciotextBox, "Favor Ingrese el Precio");
+                errorProvider1.SetError(CantidadtextBox, "Favor Ingrese el Precio");
+                return;
+            }
+            if (CantidadtextBox.Text == "")
+            {
+                errorProvider1.SetError(CantidadtextBox, "Favor Ingrese la cantidad");
                 return;
             }
 
@@ -42,9 +47,9 @@ namespace Formulario2
             //TotaltextBox.Text = Convert.ToString(total);
 
             Convert.ToString(PreciotextBox.Text);
-            MostrarlistBox.Items.Add(ProductotextBox.Text + " " + PreciotextBox.Text);
+            MostrarlistBox.Items.Add(" -- Producto: " + ProductotextBox.Text + " -- Cantidad: " + CantidadtextBox.Text + " -- Precio: "  + PreciotextBox.Text);
 
-            total = total + Convert.ToDouble(PreciotextBox.Text);
+            total = total + (Convert.ToDouble(PreciotextBox.Text) * Convert.ToDouble(CantidadtextBox.Text));
             TotaltextBox.Text = Convert.ToString(total);
             promedio = (total * 0.15);
             PromediotextBox.Text = Convert.ToString(promedio);
@@ -53,6 +58,11 @@ namespace Formulario2
             ProductotextBox.Focus();
             PreciotextBox.Text = "";
             PreciotextBox.Focus();
-        } 
+            CantidadtextBox.Text = "";
+            CantidadtextBox.Focus();
+
+        }
+
+
     }
 }
