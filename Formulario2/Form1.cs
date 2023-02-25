@@ -22,8 +22,11 @@ namespace Formulario2
         {
 
         }
-        double total = 0;
+        double Total = 0;
         double promedio = 0;
+        double SumaTotal = 0;
+        double PromedioTotal = 0;
+
         public void Agregarbutton_Click(object sender, EventArgs e)
         {
 
@@ -43,16 +46,16 @@ namespace Formulario2
                 return;
             }
 
-            //total = total + Convert.ToDouble(PreciotextBox.Text);
-            //TotaltextBox.Text = Convert.ToString(total);
+            Total = Total + Convert.ToDouble(PreciotextBox.Text) * Convert.ToDouble(CantidadtextBox.Text);
 
             Convert.ToString(PreciotextBox.Text);
-            MostrarlistBox.Items.Add(" -- Producto: " + ProductotextBox.Text + " -- Cantidad: " + CantidadtextBox.Text + " -- Precio: "  + PreciotextBox.Text);
+            MostrarlistBox.Items.Add(" -- Producto: " + ProductotextBox.Text + " -- Cantidad: " + CantidadtextBox.Text + " -- Precio: " + PreciotextBox.Text);
+            MostrarlistBox.Items.Add(" -- SubTotal: " + Total);
+          
 
-            total = total + (Convert.ToDouble(PreciotextBox.Text) * Convert.ToDouble(CantidadtextBox.Text));
-            TotaltextBox.Text = Convert.ToString(total);
-            promedio = (total * 0.15);
-            PromediotextBox.Text = Convert.ToString(promedio);
+            SumaTotal = suma(Total, promedio);
+            PromediotextBox.Text = Convert.ToString(SumaTotal);
+            
 
             ProductotextBox.Text = "";
             ProductotextBox.Focus();
@@ -63,6 +66,11 @@ namespace Formulario2
 
         }
 
+        public double suma(double total, double promedio)
+        {
+            promedio = total * 0.15;
+            return promedio;
 
+        }
     }
 }

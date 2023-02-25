@@ -36,9 +36,7 @@
             this.MostrarlistBox = new System.Windows.Forms.ListBox();
             this.Agregarbutton = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.TotaltextBox = new System.Windows.Forms.TextBox();
             this.PromediotextBox = new System.Windows.Forms.TextBox();
-            this.Totallabel = new System.Windows.Forms.Label();
             this.Promediolabel = new System.Windows.Forms.Label();
             this.PreciotextBox = new System.Windows.Forms.TextBox();
             this.Cantidadlabel = new System.Windows.Forms.Label();
@@ -81,18 +79,19 @@
             // 
             this.MostrarlistBox.FormattingEnabled = true;
             this.MostrarlistBox.ItemHeight = 16;
-            this.MostrarlistBox.Location = new System.Drawing.Point(456, 40);
+            this.MostrarlistBox.Location = new System.Drawing.Point(363, 59);
             this.MostrarlistBox.Name = "MostrarlistBox";
-            this.MostrarlistBox.Size = new System.Drawing.Size(304, 356);
+            this.MostrarlistBox.Size = new System.Drawing.Size(397, 356);
             this.MostrarlistBox.TabIndex = 4;
+            
             // 
             // Agregarbutton
             // 
-            this.Agregarbutton.Location = new System.Drawing.Point(207, 235);
+            this.Agregarbutton.Location = new System.Drawing.Point(207, 236);
             this.Agregarbutton.Name = "Agregarbutton";
             this.Agregarbutton.Size = new System.Drawing.Size(150, 66);
             this.Agregarbutton.TabIndex = 5;
-            this.Agregarbutton.Text = "Agregar";
+            this.Agregarbutton.Text = "Agregar Y Calcular";
             this.Agregarbutton.UseVisualStyleBackColor = true;
             this.Agregarbutton.Click += new System.EventHandler(this.Agregarbutton_Click);
             // 
@@ -100,37 +99,21 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // TotaltextBox
-            // 
-            this.TotaltextBox.Location = new System.Drawing.Point(93, 326);
-            this.TotaltextBox.Name = "TotaltextBox";
-            this.TotaltextBox.Size = new System.Drawing.Size(100, 22);
-            this.TotaltextBox.TabIndex = 6;
-            // 
             // PromediotextBox
             // 
-            this.PromediotextBox.Location = new System.Drawing.Point(323, 326);
+            this.PromediotextBox.Location = new System.Drawing.Point(220, 336);
             this.PromediotextBox.Name = "PromediotextBox";
-            this.PromediotextBox.Size = new System.Drawing.Size(100, 22);
+            this.PromediotextBox.Size = new System.Drawing.Size(118, 22);
             this.PromediotextBox.TabIndex = 7;
-            // 
-            // Totallabel
-            // 
-            this.Totallabel.AutoSize = true;
-            this.Totallabel.Location = new System.Drawing.Point(114, 367);
-            this.Totallabel.Name = "Totallabel";
-            this.Totallabel.Size = new System.Drawing.Size(38, 16);
-            this.Totallabel.TabIndex = 8;
-            this.Totallabel.Text = "Total";
             // 
             // Promediolabel
             // 
             this.Promediolabel.AutoSize = true;
-            this.Promediolabel.Location = new System.Drawing.Point(342, 363);
+            this.Promediolabel.Location = new System.Drawing.Point(235, 376);
             this.Promediolabel.Name = "Promediolabel";
-            this.Promediolabel.Size = new System.Drawing.Size(66, 16);
+            this.Promediolabel.Size = new System.Drawing.Size(92, 16);
             this.Promediolabel.TabIndex = 9;
-            this.Promediolabel.Text = "Promedio";
+            this.Promediolabel.Text = "Total a Pagar ";
             // 
             // PreciotextBox
             // 
@@ -144,7 +127,7 @@
             this.Cantidadlabel.AutoSize = true;
             this.Cantidadlabel.Location = new System.Drawing.Point(132, 118);
             this.Cantidadlabel.Name = "Cantidadlabel";
-            this.Cantidadlabel.Size = new System.Drawing.Size(76, 20);
+            this.Cantidadlabel.Size = new System.Drawing.Size(61, 16);
             this.Cantidadlabel.TabIndex = 11;
             this.Cantidadlabel.Text = "Cantidad";
             // 
@@ -156,9 +139,7 @@
             this.Controls.Add(this.Cantidadlabel);
             this.Controls.Add(this.PreciotextBox);
             this.Controls.Add(this.Promediolabel);
-            this.Controls.Add(this.Totallabel);
             this.Controls.Add(this.PromediotextBox);
-            this.Controls.Add(this.TotaltextBox);
             this.Controls.Add(this.Agregarbutton);
             this.Controls.Add(this.MostrarlistBox);
             this.Controls.Add(this.CantidadtextBox);
@@ -185,9 +166,7 @@
         private System.Windows.Forms.Button Agregarbutton;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Label Promediolabel;
-        private System.Windows.Forms.Label Totallabel;
         private System.Windows.Forms.TextBox PromediotextBox;
-        private System.Windows.Forms.TextBox TotaltextBox;
         private System.Windows.Forms.Label Cantidadlabel;
         private System.Windows.Forms.TextBox PreciotextBox;
     }
